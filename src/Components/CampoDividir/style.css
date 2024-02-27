@@ -1,0 +1,41 @@
+fieldset {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 10 auto;
+    border: none;
+    padding: 20px;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+legend {
+    display: block;
+    margin-bottom: 10px;
+    font-family: 'Basic Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 19px;
+    line-height: 16px;
+    color: #653024;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-family: 'Basic Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 16px;
+    color: #151313;
+}
+
+input, select {
+    padding: 10px;
+    border: none;
+    background: #F2F1F3;
+    border-radius: 16px;
+    margin-bottom: 10px;
+    padding-right: 20px;
+}

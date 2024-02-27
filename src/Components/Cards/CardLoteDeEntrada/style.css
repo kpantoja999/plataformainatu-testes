@@ -1,0 +1,14 @@
+.container-card-lote-entrada{
+    margin-left: 50px;
+}
+
+.loteItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 500px;
+    margin-bottom: 25px;
+    border-bottom: 1px solid var(--marrom-claro, #F6EBDF);
+    background: var(--grayscale-000, #FFF);
+    box-sizing: border-box;
+}

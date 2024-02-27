@@ -1,0 +1,13 @@
+.embalagem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px;
+}
+
+.container-embalagens-estoque{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20vh;
+    align-items: center;
+}

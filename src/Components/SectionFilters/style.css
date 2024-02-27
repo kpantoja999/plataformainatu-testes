@@ -1,0 +1,55 @@
+.divTitulo {
+  background: url("../../assets/img/Default_brown_and_green_rainforest_flat_minimal_illustration_1_21b45312-ccf3-486b-859f-62e4ec2263d9_1\ 1.png");
+  width: 100%;
+  border-radius: 25px;
+  display: flex;
+  align-items: center; /* Alinha os itens verticalmente */
+  gap: 25px;
+}
+
+.divTitulo img {
+  width: 40px;
+  margin-left: 25px;
+}
+
+.tituloForm {
+  padding: 25px;
+}
+
+.tituloForm h1 {
+  margin: 55px 15px;
+  color: var(--grayscale-900, #151313);
+  text-align: center;
+  /* Header/Subtitle */
+  font-family: "title";
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+  /* 145.455% */
+  letter-spacing: -0.66px;
+}
+
+.tituloForm h2 {
+  margin-bottom: 40px;
+  color: var(--grayscale-900, #151313);
+  font-family: "title";
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.form-filtro {
+  display: flex;
+  gap: 24px;
+}
+
+.form-filtro div {
+  display: flex;
+  align-items: center; /* Alinha os itens verticalmente */
+}
+
+.form-filtro label {
+  margin-left: 8px; /* Adicionando um pequeno espaço entre o botão e o texto */
+}

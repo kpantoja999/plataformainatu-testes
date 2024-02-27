@@ -1,0 +1,20 @@
+.containerTitle{
+    display: flex;
+}
+
+#text-processos {
+    font-family: 'Bernhard Gothic URW';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 40px;
+    margin: 20px 40px;
+    margin-left: 300px;
+}
+
+.linkControleProcessos{
+    text-decoration: none;
+    color: black;
+    padding: 25px;
+}
+

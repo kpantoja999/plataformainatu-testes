@@ -1,0 +1,45 @@
+
+.escolhe-processos {
+   display: flex;
+   align-items: center;
+   justify-content: left;
+   border: none;
+   margin: 5px 20px;
+   background: #FFFFFF;
+   border: 3px solid #EDF6E0;
+   border-radius: 16px;
+   width: 50vw;
+   margin-left: 200px;
+   padding: 20px;
+   font-family: 'Basic Sans';
+   font-style: normal;
+   font-weight: 800;
+   font-size: 19px;
+   line-height: 16px;
+   color: #151313;
+   gap: 25px;
+}
+
+.escolhe-processos:hover {
+   border: 3px solid #ffa400;
+   cursor: pointer;
+}
+
+.escolhe-processos:hover>* {
+   color: #FFFFFF;
+}
+
+
+#text-processos {
+   font-family: 'Bernhard Gothic URW';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 32px;
+   line-height: 40px;
+   margin: 20px 40px;
+   margin-left: 300px;
+}
+
+a{
+   text-decoration: none;
+}

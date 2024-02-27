@@ -1,0 +1,99 @@
+.card-lote {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    border-bottom: 1px solid var(--marrom-claro, #F6EBDF);
+    background: var(--grayscale-000, #FFF);
+    max-height: 20vh;
+    margin: 40px;
+    min-width: 50vw;
+}
+
+.subDivisor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#img {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+#produto {
+    color: black;
+}
+
+#produto::first-letter {
+    text-transform: uppercase;
+}
+
+#data {
+    display: flex;
+    color: #151313;
+    width: 96px;
+    flex-direction: column;
+    justify-content: center;
+    color: var(--grayscale-900, #151313);
+    text-align: center;
+    font-size: 17px;
+    font-family: 'Basic Sans';
+    line-height: 24px;
+}
+
+#associacao {
+    color: var(--grayscale-500, #958A8A);
+    text-align: left;
+    font-size: 17px;
+    font-family: 'Basic Sans';
+    line-height: 5px;
+}
+
+#quantidade {
+    color: var(--grayscale-500, #958A8A);
+    text-align: left;
+    font-size: 17px;
+    font-family: 'Basic Sans';
+    line-height: 5px;
+}
+
+#valor {
+    color: var(--grayscale-500, #958A8A);
+    font-size: 17px;
+    font-family: 'Basic Sans';
+    line-height: 24px;
+}
+
+#total {
+    color: var(--grayscale-900, #151313);
+    text-align: right;
+    font-size: 17px;
+    font-family: Basic Sans;
+    line-height: 24px;
+}
+
+#pdf {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 200px;
+    background: var(--verde-escuro, #00491E);
+    grid-area: pdf;
+}
+
+#pdf:hover{
+    cursor: pointer;
+}
+
+.links-lote-final{
+    display: flex;
+    gap: 10px;
+}

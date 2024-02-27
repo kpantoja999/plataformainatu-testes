@@ -1,0 +1,57 @@
+@font-face {
+    font-family: 'texto';
+    src: url('../../assets/fontes/BernhardGothicURW-Heavy.ttf'), format('ttf');
+}
+
+#root{
+    width: 100%;
+}
+
+.mainColetasRecebidas{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 20px;
+}
+
+.containerMateriasPrimas {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 80vw;
+    font-size: 20px;
+    font-family: 'title';
+    margin-left: 5%;
+    margin-top: 3%;
+    gap: 25px;
+}
+
+.containerMateriasPrimas span:hover {
+    cursor: pointer;
+    color: #653024;
+    font-family: 'title';
+}
+
+h1 {
+    font-family: 'title';
+    grid-column-start: 1;
+    grid-column-end: 4;
+    margin-bottom: 2%;
+}
+
+.formFiltro {
+    display: flex;
+    justify-content: space-around;
+}
+
+.formFiltro div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.formColeta fieldset {
+    margin-left: 0;
+}
+
+.inativo {
+    display: none;
+}

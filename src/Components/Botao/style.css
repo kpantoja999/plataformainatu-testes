@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Basic&family=Buenard:wght@400;700&family=Italiana&display=swap');
+
+.btn {
+    display: flex;
+    width: 160px;
+    padding: 12px 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    border-radius: 16px;
+    border-color: #FFF;
+    background: var(--verde-escuro, #00491E);
+    box-shadow: 10px 5px 5px black;
+    cursor: pointer;
+}
+
+.text {
+    color: var(--grayscale-000, #FFF);
+    text-align: center;
+
+    /* Body/Text Medium */
+    font-family: 'Basic';
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 141.176% */
+}

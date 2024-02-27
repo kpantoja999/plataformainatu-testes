@@ -1,0 +1,124 @@
+.container-cadastros{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@font-face {
+    font-family: 'titulo', sans-serif;
+    src: url('../../assets/fontes/BernhardGothicURW-Heavy.ttf') format('ttf');
+}
+
+/* css cadastro */
+
+main {
+    left: 300px;
+    margin-top: 40px;
+}
+
+.container-cadastros{
+    display: flex;
+    flex-direction: row;
+}
+
+h1 {
+    font-family: 'titulo', 'Bernhard Gothic URW';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 40px;
+}
+
+.extra {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 10 auto;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-family: 'Basic Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 16px;
+    color: #151313;
+}
+
+input,
+select {
+    padding: 10px;
+    border: none;
+    background: #F2F1F3;
+    border-radius: 16px;
+    margin-bottom: 20px;
+}
+
+input:focus {
+    outline: none;
+    border: 2px solid #ffa400;
+}
+
+select:focus {
+    outline: none;
+    border: 2px solid #ffa400;
+}
+
+button[type="submit"] {
+    background: #00491E;
+    border: none;
+    color: white;
+    flex-direction: row;
+    padding: 12px 10px;
+    gap: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 20px;
+    border-radius: 16px;
+    cursor: pointer;
+}
+
+.bt {
+    background-color: #fff;
+    color: 0000;
+    border: 2px solid #ffa400;
+    border-radius: 16px;
+    padding: 10px 30px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin: 5px;
+    margin-top: 40px;
+    font-weight: 800;
+}
+
+.bt:hover {
+    background-color: #ffa400;
+    color: #fff;
+}
+
+.bt:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px #ffa400;
+}
+
+.bt:active {
+    background-color: #ffa400;
+    color: #fff;
+}
+
+.div-form{
+    margin-left: 150px;
+}
+
+.alinhar-horizontal-form-maquinas{
+    display: flex;
+    flex-direction: row;
+    gap: 75px;
+}

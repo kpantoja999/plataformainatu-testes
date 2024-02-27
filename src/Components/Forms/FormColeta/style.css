@@ -1,0 +1,13 @@
+.formColeta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 10vw;
+    text-align: center;
+}
+
+.alinhar-horizontal{
+    display: flex;
+    gap: 5px;
+    text-align: center;
+}

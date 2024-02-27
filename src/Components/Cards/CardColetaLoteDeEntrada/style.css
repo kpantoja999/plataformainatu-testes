@@ -1,0 +1,115 @@
+.coleta-item {
+    margin: 10px 80px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 15px;
+    box-sizing: border-box;
+    max-height: 200px;
+    border-radius: 20px;
+    width: 45vw;
+    align-items: center;
+    background-color: #f4f7f1;
+}
+
+.coleta-item-inativo {
+    background-color: #faf0af;
+    transition: 0.5s;
+}
+
+.listaColetas {
+    margin: 10px 35px;
+    border-radius: 25px;
+    max-height: 20vh;
+}
+
+.listaColetas span {
+    text-align: center;
+}
+
+.text-item {
+    font-family: 'Basic Sans';
+    font-weight: 400;
+    font-size: 17px;
+    text-align: center;
+}
+
+.item-id::before {
+    content: url('../../../assets/img/status=uncheck.svg');
+}
+
+.item-id-check::before {
+    content: url('../../../assets/img/status=check.svg');
+}
+
+#idLT {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+#dataLT {
+    grid-column-start: 5;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+#materia-primaLT::before {
+    content: url('../../../assets/icons_inatu/icon=droplet-solid\ 1.svg');
+    justify-items: center;
+}
+
+#materia-primaLT {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+#extrativistaLT {
+    grid-column-start: 4;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+
+#localLT {
+    grid-column-start: 4;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+
+#quantidadeLT {
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+#precoLT {
+    grid-column-start: 5;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+
+.item-id-check::before {
+    content: url('../../../assets/img/status=check.svg');
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    gap: 45px;
+    margin-left: 60px;
+}

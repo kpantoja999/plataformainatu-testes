@@ -1,0 +1,25 @@
+.divEscolheEtapa{
+    display: flex;
+}
+
+.selecionarLoteDeEntrada {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    margin: 45px auto auto 45px;
+    cursor: pointer;
+    color: #653024;
+}
+
+.continuarProcesso {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    margin: 70px auto auto 45px;
+    cursor: pointer;
+    color: #653024;
+}
